@@ -160,7 +160,21 @@ small, .small {
 header,
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+header {
+  padding-top: 4rem;
+}
+
+a {
+  color: $gray-light-0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $gray-mid-0;
+  }
 }
 
 @import "syntax-highlighting";
