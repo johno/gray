@@ -1,0 +1,27 @@
+{
+  "name": "gray",
+  "version": "0.0.1",
+  "homepage": "https://github.com/johnotander/gray",
+  "authors": [
+    "John Otander <johnotander@gmail.com>"
+  ],
+  "description": "Collection of grayscale variables for prototyping.",
+  "main": "scss/all.scss",
+  "keywords": [
+    "css",
+    "scss",
+    "gray",
+    "grayscale",
+    "colors",
+    "palette",
+    "color"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
