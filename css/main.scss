@@ -110,7 +110,7 @@ body {
 }
 
 html {
-  font-size: 1em;
+  font-size: .7em;
 }
 
 p {
@@ -128,6 +128,17 @@ h1 {
   font-size: 3.998rem;
 }
 
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 1em;
+  }
+
+  small,
+  .small {
+    font-size: .707rem;
+  }
+}
+
 h2 {
   font-size: 2.827rem;
 }
@@ -140,8 +151,9 @@ h4 {
   font-size: 1.414rem;
 }
 
-small, .small {
-  font-size: 0.707rem;
+small,
+.small {
+  font-size: 0.75rem;
 }
 
 .measure {
