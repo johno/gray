@@ -1,6 +1,6 @@
 # Gray
 
-<www.g-r-a-y-s-c-a-l-e.com>
+<http://www.g-r-a-y-s-c-a-l-e.com>
 
 Try out different grays while prototyping with the switch of a variable.
 
