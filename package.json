@@ -1,6 +1,6 @@
 {
   "name": "gray",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collection of grayscale variables for prototyping.",
   "main": "index.js",
   "scripts": {
