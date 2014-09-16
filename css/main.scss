@@ -179,4 +179,8 @@ a {
   }
 }
 
+pre {
+  overflow-x: scroll;
+}
+
 @import "syntax-highlighting";
