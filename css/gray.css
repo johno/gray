@@ -1,0 +1,185 @@
+/*
+  grayscale.css (www.g-r-a-y-s-c-a-l-e.com)
+
+    Crafted with <3 by John Otander(@4lpine).
+    MIT Licensed
+ */
+.gray-light-0 {
+  color: rgba(160, 160, 160, 0.99); }
+
+.gray-light-1 {
+  color: rgba(168, 168, 168, 0.99); }
+
+.gray-light-2 {
+  color: rgba(176, 176, 176, 0.99); }
+
+.gray-light-3 {
+  color: rgba(184, 184, 184, 0.99); }
+
+.gray-light-4 {
+  color: rgba(192, 192, 192, 0.99); }
+
+.gray-light-5 {
+  color: rgba(216, 216, 216, 0.99); }
+
+.gray-light-6 {
+  color: rgba(224, 224, 224, 0.99); }
+
+.gray-light-7 {
+  color: rgba(232, 232, 232, 0.99); }
+
+.gray-light-8 {
+  color: rgba(250, 250, 250, 0.99); }
+
+.gray-light-9 {
+  color: rgba(255, 255, 255, 0.99); }
+
+.gray-mid-0 {
+  color: rgba(96, 96, 96, 0.99); }
+
+.gray-mid-1 {
+  color: rgba(102, 102, 102, 0.99); }
+
+.gray-mid-2 {
+  color: rgba(112, 112, 112, 0.99); }
+
+.gray-mid-3 {
+  color: rgba(119, 119, 119, 0.99); }
+
+.gray-mid-4 {
+  color: rgba(128, 128, 128, 0.99); }
+
+.gray-mid-5 {
+  color: rgba(136, 136, 136, 0.99); }
+
+.gray-mid-6 {
+  color: rgba(144, 144, 144, 0.99); }
+
+.gray-mid-7 {
+  color: rgba(153, 153, 153, 0.99); }
+
+.gray-mid-8 {
+  color: rgba(160, 160, 160, 0.99); }
+
+.gray-mid-9 {
+  color: rgba(168, 168, 168, 0.99); }
+
+.gray-dark-0 {
+  color: rgba(8, 8, 8, 0.99); }
+
+.gray-dark-1 {
+  color: rgba(16, 16, 16, 0.99); }
+
+.gray-dark-2 {
+  color: rgba(26, 26, 26, 0.99); }
+
+.gray-dark-3 {
+  color: rgba(32, 32, 32, 0.99); }
+
+.gray-dark-4 {
+  color: rgba(34, 34, 34, 0.99); }
+
+.gray-dark-5 {
+  color: rgba(40, 40, 40, 0.99); }
+
+.gray-dark-6 {
+  color: rgba(51, 51, 51, 0.99); }
+
+.gray-dark-7 {
+  color: rgba(56, 56, 56, 0.99); }
+
+.gray-dark-8 {
+  color: rgba(68, 68, 68, 0.99); }
+
+.gray-dark-9 {
+  color: rgba(72, 72, 72, 0.99); }
+
+.bg-gray-light-0 {
+  background-color: rgba(160, 160, 160, 0.99); }
+
+.bg-gray-light-1 {
+  background-color: rgba(168, 168, 168, 0.99); }
+
+.bg-gray-light-2 {
+  background-color: rgba(176, 176, 176, 0.99); }
+
+.bg-gray-light-3 {
+  background-color: rgba(184, 184, 184, 0.99); }
+
+.bg-gray-light-4 {
+  background-color: rgba(192, 192, 192, 0.99); }
+
+.bg-gray-light-5 {
+  background-color: rgba(216, 216, 216, 0.99); }
+
+.bg-gray-light-6 {
+  background-color: rgba(224, 224, 224, 0.99); }
+
+.bg-gray-light-7 {
+  background-color: rgba(232, 232, 232, 0.99); }
+
+.bg-gray-light-8 {
+  background-color: rgba(250, 250, 250, 0.99); }
+
+.bg-gray-light-9 {
+  background-color: rgba(255, 255, 255, 0.99); }
+
+.bg-gray-mid-0 {
+  background-color: rgba(96, 96, 96, 0.99); }
+
+.bg-gray-mid-1 {
+  background-color: rgba(102, 102, 102, 0.99); }
+
+.bg-gray-mid-2 {
+  background-color: rgba(112, 112, 112, 0.99); }
+
+.bg-gray-mid-3 {
+  background-color: rgba(119, 119, 119, 0.99); }
+
+.bg-gray-mid-4 {
+  background-color: rgba(128, 128, 128, 0.99); }
+
+.bg-gray-mid-5 {
+  background-color: rgba(136, 136, 136, 0.99); }
+
+.bg-gray-mid-6 {
+  background-color: rgba(144, 144, 144, 0.99); }
+
+.bg-gray-mid-7 {
+  background-color: rgba(153, 153, 153, 0.99); }
+
+.bg-gray-mid-8 {
+  background-color: rgba(160, 160, 160, 0.99); }
+
+.bg-gray-mid-9 {
+  background-color: rgba(168, 168, 168, 0.99); }
+
+.bg-gray-dark-0 {
+  background-color: rgba(8, 8, 8, 0.99); }
+
+.bg-gray-dark-1 {
+  background-color: rgba(16, 16, 16, 0.99); }
+
+.bg-gray-dark-2 {
+  background-color: rgba(26, 26, 26, 0.99); }
+
+.bg-gray-dark-3 {
+  background-color: rgba(32, 32, 32, 0.99); }
+
+.bg-gray-dark-4 {
+  background-color: rgba(34, 34, 34, 0.99); }
+
+.bg-gray-dark-5 {
+  background-color: rgba(40, 40, 40, 0.99); }
+
+.bg-gray-dark-6 {
+  background-color: rgba(51, 51, 51, 0.99); }
+
+.bg-gray-dark-7 {
+  background-color: rgba(56, 56, 56, 0.99); }
+
+.bg-gray-dark-8 {
+  background-color: rgba(68, 68, 68, 0.99); }
+
+.bg-gray-dark-9 {
+  background-color: rgba(72, 72, 72, 0.99); }

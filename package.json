@@ -24,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/johnotander/gray/issues"
   },
-  "homepage": "http://www.g-r-a-y-s-c-a-l-e.com"
+  "homepage": "http://www.g-r-a-y-s-c-a-l-e.com",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-csslint": "^0.1.5",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.3"
+  }
 }
