@@ -144,7 +144,7 @@ The utility classes for backround color:
 
 The utility classes for text color:
 
-```html
+```scss
 .gray-light-0 { color: $gray-light-0; }
 .gray-light-1 { color: $gray-light-1; }
 .gray-light-2 { color: $gray-light-2; }
