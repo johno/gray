@@ -20,7 +20,7 @@ $ npm install --save gray
 Or, you can clone the source:
 
 ```
-$ git clone https://github.com/johnotander/grayscale.git
+$ git clone https://github.com/johnotander/gray.git
 ```
 
 ### Using the SCSS
