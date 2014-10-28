@@ -23,6 +23,31 @@ Or, you can clone the source:
 $ git clone https://github.com/johnotander/gray.git
 ```
 
+### Using with rework
+
+Gray integrates with rework, requiring only the rework-npm and rework-vars plugins:
+
+It provides an index.css file, so you can do the following (assuming the gray npm module is installed).
+
+```css
+@import "gray";
+
+/* ... */
+```
+
+```js
+var gulp       = require('gulp'),
+    rework     = require('gulp-rework'),
+    reworkVars = require('gulp-rework-vars'),
+    reworkNPM  = require('rework-npm');
+
+gulp.task('css', function() {
+  return gulp.src('your-css-file.css')
+    .pipe(rework(reworkNPM(), reworkVars()))
+    .pipe(gulp.dest('dist'));
+});
+```
+
 ### Using the SCSS
 
 In your Scss file, you can import furtive:
