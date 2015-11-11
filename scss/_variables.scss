@@ -1,37 +1,38 @@
-// Sass will automatically convert the rgba values to hex
-// if they alpha value is 1. So, it will default to .99 to
-// avoid this.
-$alpha-value: .99 !default;
 
-$gray-light-0: rgba(#a0a0a0, $alpha-value) !default;
-$gray-light-1: rgba(#a8a8a8, $alpha-value) !default;
-$gray-light-2: rgba(#b0b0b0, $alpha-value) !default;
-$gray-light-3: rgba(#b8b8b8, $alpha-value) !default;
-$gray-light-4: rgba(#c0c0c0, $alpha-value) !default;
-$gray-light-5: rgba(#d8d8d8, $alpha-value) !default;
-$gray-light-6: rgba(#e0e0e0, $alpha-value) !default;
-$gray-light-7: rgba(#e8e8e8, $alpha-value) !default;
-$gray-light-8: rgba(#fafafa, $alpha-value) !default;
-$gray-light-9: rgba(#fff, $alpha-value) !default;
+// Converted Variables
 
-$gray-mid-0: rgba(#606060, $alpha-value) !default;
-$gray-mid-1: rgba(#666, $alpha-value) !default;
-$gray-mid-2: rgba(#707070, $alpha-value) !default;
-$gray-mid-3: rgba(#777, $alpha-value) !default;
-$gray-mid-4: rgba(#808080, $alpha-value) !default;
-$gray-mid-5: rgba(#888, $alpha-value) !default;
-$gray-mid-6: rgba(#909090, $alpha-value) !default;
-$gray-mid-7: rgba(#999, $alpha-value) !default;
-$gray-mid-8: rgba(#a0a0a0, $alpha-value) !default;
-$gray-mid-9: rgba(#a8a8a8, $alpha-value) !default;
+$gray-light-0: #a0a0a0 !default;
+$gray-light-1: #a8a8a8 !default;
+$gray-light-2: #b0b0b0 !default;
+$gray-light-3: #b8b8b8 !default;
+$gray-light-4: #c0c0c0 !default;
+$gray-light-5: #d8d8d8 !default;
+$gray-light-6: #e0e0e0 !default;
+$gray-light-7: #e8e8e8 !default;
+$gray-light-8: #fafafa !default;
+$gray-light-9: #fff !default;
+$gray-mid-0: #606060 !default;
+$gray-mid-1: #666 !default;
+$gray-mid-2: #707070 !default;
+$gray-mid-3: #777 !default;
+$gray-mid-4: #808080 !default;
+$gray-mid-5: #888 !default;
+$gray-mid-6: #909090 !default;
+$gray-mid-7: #999 !default;
+$gray-mid-8: #a0a0a0 !default;
+$gray-mid-9: #a8a8a8 !default;
+$gray-dark-0: #080808 !default;
+$gray-dark-1: #101010 !default;
+$gray-dark-2: #1a1a1a !default;
+$gray-dark-3: #202020 !default;
+$gray-dark-4: #222 !default;
+$gray-dark-5: #282828 !default;
+$gray-dark-6: #333 !default;
+$gray-dark-7: #383838 !default;
+$gray-dark-8: #444 !default;
+$gray-dark-9: #484848 !default;
 
-$gray-dark-0: rgba(#080808, $alpha-value) !default;
-$gray-dark-1: rgba(#101010, $alpha-value) !default;
-$gray-dark-2: rgba(#1a1a1a, $alpha-value) !default;
-$gray-dark-3: rgba(#202020, $alpha-value) !default;
-$gray-dark-4: rgba(#222, $alpha-value) !default;
-$gray-dark-5: rgba(#282828, $alpha-value) !default;
-$gray-dark-6: rgba(#333, $alpha-value) !default;
-$gray-dark-7: rgba(#383838, $alpha-value) !default;
-$gray-dark-8: rgba(#444, $alpha-value) !default;
-$gray-dark-9: rgba(#484848, $alpha-value) !default;
+// Custom Media Query Variables
+
+
+

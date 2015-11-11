@@ -1,33 +1,35 @@
-# Gray
-
-<http://www.g-r-a-y-s-c-a-l-e.com>
+# gray
 
 Try out different grays while prototyping with the switch of a variable.
 
+<http://www.g-r-a-y-s-c-a-l-e.com>
+
 ## Installation
 
-You can install via [bower](http://bower.io):
-
-```
-$ bower install --save grayscale
-```
-
-Or, you can install via [npm](http://npmjs.org):
-
-```
+```sh
 $ npm install --save gray
 ```
-Or, you can clone the source:
 
-```
+Or, you can clone the source
+
+```sh
 $ git clone https://github.com/johnotander/gray.git
 ```
 
-### Using with rework
+## Usage
 
-Gray integrates with rework, requiring only the rework-npm and rework-vars plugins:
+`gray` supports JavaScript, PostCSS, Sass, Less, and vanilla CSS.
 
-It provides an index.css file, so you can do the following (assuming the gray npm module is installed).
+#### Using with JavaScript
+
+```js
+var gray = require('gray')
+// => [{ "gray-light-0": "#a0a0a0" } ... ]
+```
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+`gray` is built with PostCSS, requiring only the postcss-import and postcss-css-variables plugins.
 
 ```css
 @import "gray";
@@ -36,38 +38,46 @@ It provides an index.css file, so you can do the following (assuming the gray np
 ```
 
 ```js
-var gulp       = require('gulp'),
-    rework     = require('gulp-rework'),
-    reworkVars = require('gulp-rework-vars'),
-    reworkNPM  = require('rework-npm');
+var gulp = require('gulp')
+var postcss = require('gulp-postcss')
+var atImport = require('postcss-import')
+var vars = require('postcss-css-variables')
+    
 
-gulp.task('css', function() {
+gulp.task('css', function ()  {
   return gulp.src('your-css-file.css')
-    .pipe(rework(reworkNPM(), reworkVars()))
+    .pipe(postcss(atImport(), vars())
     .pipe(gulp.dest('dist'));
-});
+})
 ```
 
-### Using the SCSS
+#### Using the SCSS
 
-In your Scss file, you can import furtive:
 
 ```scss
-@import "/path/to/gray/scss/all";     // For rgba variables.
-@import "/path/to/gray/scss/all-hex"; // For hex variables.
+@import "/path/to/gray/scss/gray";
 ```
 
-Or, if you like, you can just import the variables, they're located in the
-`scss` directory, like so:
+Or, if you like, you can import the variables located in the `scss` directory.
 
 ```scss
 @import "/path/to/gray/scss/variables";
 ```
 
-### Using the CSS
+#### Using the Less
 
-Furtive provides four CSS files: `gray.css`, `gray-hex.css`, and their minified versions. In
-order to use one, you can add a `<link>` in your `<head>`.
+```less
+@import "/path/to/gray/less/gray";
+```
+
+```less
+@import "/path/to/gray/less/variables"
+```
+
+#### Using the CSS
+
+`gray` provides two CSS files: `gray.css` and `gray.min.css`. They're located in the `dist` directory.
+In order to use one, you can add a `<link>` in your `<head>`.
 
 ```html
 <!DOCTYPE html>
@@ -82,10 +92,6 @@ order to use one, you can add a `<link>` in your `<head>`.
 </body>
 </html>
 ```
-
-## Usage
-
-Detailed color examples available at <http://www.g-r-a-y-s-c-a-l-e.com>.
 
 ### Variables
 

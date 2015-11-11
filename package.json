@@ -3,17 +3,18 @@
   "version": "0.0.6",
   "description": "Collection of grayscale variables for prototyping.",
   "main": "index.js",
+  "style": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "css-scss < css/_variables.css > scss/_variables.scss && css-scss < css/_colors.css > scss/_colors.scss && css-scss css/_background-colors.css > scss/_background-colors.scss"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnotander/gray.git"
-  },
+  "repository": "johnotander/gray",
   "keywords": [
     "css",
     "scss",
     "gray",
+    "less",
+    "postcss",
     "grayscale",
     "colors",
     "palette",
@@ -21,17 +22,13 @@
   ],
   "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnotander/gray/issues"
-  },
   "homepage": "http://www.g-r-a-y-s-c-a-l-e.com",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "^1.0.0",
-    "gulp-concat": "^2.4.1",
-    "gulp-csslint": "^0.1.5",
-    "gulp-minify-css": "^0.3.8",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^0.7.3"
+    "css-scss-cli": "^1.0.0",
+    "tachyons-cli": "^0.2.2"
+  },
+  "dependencies": {
+    "ava": "^0.4.2",
+    "node-sass": "^3.4.1"
   }
 }
